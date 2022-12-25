@@ -14,7 +14,6 @@ const Todo = () => {
     }
 
     const checkTask = (id) =>{
-
         setTodo(
             todo.map((item) =>{
                 if(item.id === id){
@@ -24,8 +23,8 @@ const Todo = () => {
         )
         
     }
-
-
+ 
+ 
 
     return (
         <div 
